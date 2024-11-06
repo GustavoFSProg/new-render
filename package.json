@@ -15,8 +15,7 @@
     "nodemon": "^3.1.7"
   },
   "scripts": {
-    "dev": " nodemon --exec babel-node src/index.js",
-    "start": "node dist",
-    "build": "babel src -d dist"
+    "dev": " nodemon --exec babel-node index.js",
+    
   }
 }
