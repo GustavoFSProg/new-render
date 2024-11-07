@@ -1,9 +1,10 @@
 {
-"name": "servical",
+  "name": "servical",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@prisma/client": "5.22.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-node": "^0.0.1-security",
@@ -12,10 +13,10 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "prisma": "^5.22.0"
   },
   "scripts": {
     "dev": " nodemon --exec babel-node index.js"
-    
   }
 }

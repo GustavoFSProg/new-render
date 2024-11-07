@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
+import userController from './userController'
 
 dotenv.config()
 
@@ -19,5 +20,8 @@ app.get('/', (req, res) => {
   // biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
   return res.status(200).send({ msg: `Api Running: ` })
 })
+
+
+app.get('/users', userController.getUsers)
 
 export default app
