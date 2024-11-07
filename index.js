@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import userController from './userController'
+import userController from './userController.js'
 
 dotenv.config()
 
